@@ -47,11 +47,12 @@ portfolio/
 | ---------------------- | ------------------------------ | -------------------------------------------------------- |
 | ~~Professional email~~ | ✅ Done                         | `mirembejanegift@gmail.com` is live                      |
 | ~~LinkedIn URL~~       | ✅ Done                         | linkedin.com/in/mirembe-jane is live                     |
-| Professional photo     | `profile.photo`                | Drop your picture into `public/images/profile/`, share it in chat, then set `profile.photo` |
+| ~~Professional photo~~ | ✅ Done                         | Hero portrait + Refactory ceremony photo are live        |
+| ~~Site URL (Open Graph)~~ | ✅ Done                      | `https://portolio-pi-nine.vercel.app/` (Vercel)          |
+| Professional photo (Education) | `education[*].photo`   | More ceremony/achievement photos welcome — drop into `public/images/achievements/` |
 | Project screenshots    | `projects[*].images`           | Files go in `public/images/{ugexim,bodaboda,cropxcel}/` (see `public/images/README.md`) |
 | Boda Boda system links | `projects` → Boda Boda entry   | A planned system — repo/demo added only when real        |
 | Other project demos/screenshots | `projects[*]`         | Same pattern — shown once provided                       |
-| Site URL (Open Graph)  | `index.html` → `og:url`        | After first deployment                                   |
 
 When a link or screenshot is filled in, the corresponding "coming soon" placeholder is
 replaced automatically — no component changes needed.
